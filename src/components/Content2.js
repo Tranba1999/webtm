@@ -2,6 +2,8 @@ import React from 'react'
 import "./Content.css"
 import Mobile from "./Mobile"
 import Slideshow from './Slideshow'
+import ReactPlayer from "react-player"
+
 
 import img4 from '../assets/img/04.jpg';
 import img5 from '../assets/img/05.jpg';
@@ -35,6 +37,9 @@ function Content() {
                     </div>
                 </div>
                 <div className="content-mobile">
+                </div>
+                <div className="content-video">
+                <ReactPlayer url="https://www.youtube.com/embed/wX2w-hGHOJA?autoplay=1&rel=0&modestbranding=1" width="245px" height="430px" playing={true} loop={true} controls={true} />
                 </div>
             </div>
         </div>

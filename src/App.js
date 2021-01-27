@@ -2,6 +2,7 @@ import './App.css'
 import LeftMenu from "./components/LeftMenu"
 import Content from "./components/Content"
 import Content2 from "./components/Content2"
+import ReactPlayer from "react-player"
 import {
   BrowserRouter as Router,
   Switch,

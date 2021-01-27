@@ -15,11 +15,19 @@
 }
 
 #Content-section .content-mobile {
-    margin-bottom: -220px;
-    margin-right: -80px;
-    width: 800px;
-    height: 700px;
-    background: url('../assets/img/hand.png');
+    margin-bottom: -330px;
+    margin-right: -120px;
+    width: 700px;
+    height: 800px;
+    background: url('../assets/img/hand2.png') no-repeat;
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+    z-index: 1;
+}
+#Content-section .content-video {
+    margin-bottom: -20px;
+    /* margin-right: 0; */
     position: absolute;
     bottom: 25%;
     right: 10%;
