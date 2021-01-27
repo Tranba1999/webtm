@@ -1,0 +1,43 @@
+#leftMenu {
+    width: 240px;
+    background-color:  #0FCFF1;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+ul {
+    list-style: none;
+}
+#leftMenu .logo {
+    padding: 40px 10px;
+}
+
+#leftMenu .nav-logo {
+    width: 100%;
+}
+
+#leftMenu li {
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#nav li{
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+#nav li:hover{
+    background-color: #08a5c0;
+}
+
+#nav .text-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    /* line-height: 50px; */
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
