@@ -5,19 +5,17 @@ import Slideshow from './Slideshow'
 import ReactPlayer from "react-player"
 
 
-import img4 from '../assets/img/04.jpg';
-import img5 from '../assets/img/05.jpg';
-import img6 from '../assets/img/06.jpg';
+import imgSlider from '../assets/img/01.jpg';
 
-let textInput4 = "HTML là ngôn ngữ đầu tiên mà một nhà thiết kế web phải học. HTML được dùng để tạo ra các nội dung cho trang web, ví dụ như: hình ảnh, âm thanh, video, các liên kết, các đoạn văn bản,.... HTML cực kỳ dễ học.''"
-let textInput5 = "A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link’s pathname matches the current URL’s pathname."
-let textInput6 = "HTML là ngôn ngữ đầu tiên mà một nhà thiết kế web phải học. HTML được dùng để tạo ra các nội dung cho trang web, ví dụ như: hình ảnh, âm thanh, video, các liên kết, các đoạn văn bản,.... HTML cực kỳ dễ học.''"
+let textSlider = 'Font Awesome allows you to combine two icons to make effects with masking. You define your normal icon and then use the mask prop to define a second icon to lay on top. The first icon will be constrained within the masking icon.'
+let textSlider2 = 'Using Font Awesome and React together is a great pairing, but creates the need to use multiple packages and consider different combinations. In this tutorial you explored some of the ways you can use Font Awesome and React together.'
+let textSlider3 = 'Before installing and using the icons, it’s important to know how the Font Awesome libraries are structured. Since there are many icons, the team decided to split them up into multiple packages.'
 
-const collection = [
-    { src: img4, caption: textInput4 },
-    { src: img5, caption: textInput5 },
-    { src: img6, caption: textInput6 },
-];
+const arraySlider = [
+    { src: imgSlider, caption: textSlider },
+    { src: imgSlider, caption: textSlider2 },
+    { src: imgSlider, caption: textSlider3 },
+]
 
 function Content() {
     return (
@@ -27,7 +25,7 @@ function Content() {
                     <div className="App">
 
                         <Slideshow
-                            input={collection}
+                            input={arraySlider}
                             ratio={`3:2`}
                             mode={`automatic`}
                             timeout={`5000`}
@@ -39,7 +37,7 @@ function Content() {
                 <div className="content-mobile">
                 </div>
                 <div className="content-video">
-                <ReactPlayer url="https://www.youtube.com/embed/wX2w-hGHOJA?autoplay=1&rel=0&modestbranding=1" width="245px" height="430px" playing={true} loop={true} controls={true} />
+                <ReactPlayer url="https://www.youtube.com/embed/wX2w-hGHOJA?autoplay=1&rel=0&modestbranding=1" width="275px" height="575px" playing={true} loop={true} controls={true} />
                 </div>
             </div>
         </div>

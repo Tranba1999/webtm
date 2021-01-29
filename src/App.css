@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Meiryo";
+    src: local("Meiryo"),
+      url("./assets/font/Meiryo.ttf") format("truetype");
+    font-weight: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +15,5 @@ html {
 #main {
     display: inline;
     overflow: hidden;
+    font-family: Meiryo;
 }

@@ -19,12 +19,12 @@ function LeftMenu() {
                     <img className="nav-logo" src={logo} alt="react"></img>
                 </div>
                 <ul id="nav">
-                    <li><i className="icon"></i><Link className="text-link" to="/App1">App 1</Link></li>
-                    <li><i className="icon"></i><Link className="text-link" to="/App2">App 2</Link></li>
-                    <li><i className="icon"></i><Link className="text-link" to="/App3">App 3</Link></li>
-                    <li><i className="icon"></i><Link className="text-link" to="/App4">App 4</Link></li>
-                    <li><i className="icon"></i><Link className="text-link" to="/App5">App 5</Link></li>
-                    <li><i className="icon"></i><Link className="text-link" to="/App6">App 6</Link></li>
+                    <li><Link className="text-link" to="/App1">App 1</Link></li>
+                    <li><Link className="text-link" to="/App2">App 2</Link></li>
+                    <li><Link className="text-link" to="/App3">App 3</Link></li>
+                    <li><Link className="text-link" to="/App4">App 4</Link></li>
+                    <li><Link className="text-link" to="/App5">App 5</Link></li>
+                    <li><Link className="text-link" to="/App6">App 6</Link></li>
                 </ul>
             </div>
             <Switch>
@@ -32,6 +32,18 @@ function LeftMenu() {
                 <Content />
               </Route>
               <Route path="/App2">
+                <Content2 />
+              </Route>
+              <Route path="/App3">
+                <Content />
+              </Route>
+              <Route path="/App4">
+                <Content2 />
+              </Route>
+              <Route path="/App5">
+                <Content />
+              </Route>
+              <Route path="/App6">
                 <Content2 />
               </Route>
             </Switch>

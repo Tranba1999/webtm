@@ -1,0 +1,13 @@
+#footer {
+    position: absolute;
+    /* display: inline; */
+    z-index: 1;
+    bottom: 5%;
+    left: 30%;
+    font-size: 1.1rem;
+}
+
+#footer a {
+    padding: 0 5px;
+    color: aqua;
+}

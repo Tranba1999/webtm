@@ -15,21 +15,21 @@
 }
 
 #Content-section .content-mobile {
-    margin-bottom: -330px;
-    margin-right: -120px;
-    width: 700px;
-    height: 800px;
-    background: url('../assets/img/hand2.png') no-repeat;
+    /* margin-bottom: -330px; */
+    /* margin-right: -120px; */
+    width: 600px;
+    height: 700px;
+    background: url('../assets/img/han.png') top left / contain no-repeat;
     position: absolute;
-    bottom: 25%;
+    bottom: -5%;
     right: 0;
-    z-index: 1;
+    z-index: 2;
 }
 #Content-section .content-video {
-    margin-bottom: -20px;
+    /* margin-bottom: -20px; */
     /* margin-right: 0; */
     position: absolute;
-    bottom: 25%;
-    right: 10%;
+    bottom: 8%;
+    right: 13.5%;
     z-index: 1;
 }
