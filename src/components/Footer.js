@@ -8,8 +8,8 @@ function Footer() {
     return (
         <div id="footer">
             <a href="http://react-plus.com"><FontAwesomeIcon icon={faHome} /></a>
-            <a href=""><FontAwesomeIcon icon={faFacebook}/></a>
-            <a href=""><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="http://facebook.com"><FontAwesomeIcon icon={faFacebook}/></a>
+            <a href="http://instagram.com"><FontAwesomeIcon icon={faInstagram} /></a>
         </div>
     )
     
