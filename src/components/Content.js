@@ -24,8 +24,7 @@ function Content() {
         <div id="Content">
             <div id="Content-section">
                 <div className="content-carousel">
-                    <div className="App">
-
+                    <div className="slider-app">
                         <Slideshow
                             input={arraySlider}
                             ratio={`3:2`}
@@ -39,7 +38,7 @@ function Content() {
                 <div className="content-mobile">
                 </div>
                 <div className="content-video">
-                <ReactPlayer url="https://www.youtube.com/embed/wX2w-hGHOJA?autoplay=1&rel=0&modestbranding=1" width="275px" height="575px" controls={true} playing={true} loop={true} />
+                <ReactPlayer url="https://www.youtube.com/watch?v=Ik7RQQB0ZCA" width="275px" height="575px" controls={true} playing={true} loop={true} />
                 </div>
             </div>
         </div>

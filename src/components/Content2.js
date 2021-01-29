@@ -37,7 +37,7 @@ function Content() {
                 <div className="content-mobile">
                 </div>
                 <div className="content-video">
-                <ReactPlayer url="https://www.youtube.com/embed/wX2w-hGHOJA?autoplay=1&rel=0&modestbranding=1" width="275px" height="575px" playing={true} loop={true} controls={true} />
+                <ReactPlayer url="https://www.youtube.com/watch?v=Ik7RQQB0ZCA" width="275px" height="575px" playing={true} loop={true} controls={true} />
                 </div>
             </div>
         </div>
